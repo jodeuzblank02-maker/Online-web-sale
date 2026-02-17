@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Sales Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f0f0; margin:0; padding:0; color:#222; }
+    .container { width:90%; max-width:1000px; margin:0 auto; padding:20px; }
+    h1,h2 { text-align:center; }
+    .hero { background:#fff; padding:40px 20px; margin-bottom:20px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.1); }
+    .features, .products { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; margin-bottom:20px; }
+    .card { background:#fff; padding:20px; border-radius:15px; width:250px; text-align:center; box-shadow:0 5px 15px rgba(0,0,0,0.1); }
+    .card img { width:100%; height:200px; object-fit:cover; border-radius:10px; }
+    .btn { display:inline-block; padding:10px 20px; margin-top:10px; background:#000; color:#fff; text-decoration:none; border-radius:10px; }
+    .btn:hover { background:#333; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Build Your Online Empire</h1>
+    <p style="text-align:center;">Sell trending products with style. Fast checkout, secure payments, and premium design.</p>
+    <a href="#" class="btn">Start Shopping 🛒</a>
+  </div>
+
+  <!-- Features -->
+  <h2>Features</h2>
+  <div class="features">
+    <div class="card">🚚<h3>Fast Delivery</h3><p>Quick and reliable shipping worldwide.</p></div>
+    <div class="card">🔒<h3>Secure Payments</h3><p>Safe checkout with trusted gateways.</p></div>
+    <div class="card">⭐<h3>Top Quality</h3><p>Premium materials and high-quality products.</p></div>
+  </div>
+
+  <!-- Products -->
+  <h2>Trending Products</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab" alt="Streetwear Hoodie">
+      <h3>Streetwear Hoodie</h3>
+      <p>$49</p>
+      <a href="#" class="btn">Add to Cart 🛒</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552" alt="Minimalist Watch">
+      <h3>Minimalist Watch</h3>
+      <p>$79</p>
+      <a href="#" class="btn">Add to Cart 🛒</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1528701800489-20be3c1c4b5a" alt="Premium Sneakers">
+      <h3>Premium Sneakers</h3>
+      <p>$120</p>
+      <a href="#" class="btn">Add to Cart 🛒</a>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
